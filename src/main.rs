@@ -15,6 +15,7 @@ fn print_matrix(matrix: &Vec<Vec<char>>) -> () {
     println!()
 }
 
+// fonction d'Etienne
 fn change_case(i:usize,j:usize,tab: &Vec<Vec<char>>)-> char {
     let mut result = '.';
     let case:char = tab[i][j];
